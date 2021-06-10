@@ -7,6 +7,7 @@ def test_add_a_task():
     assert task_manager.task_list[0].status == 0 and task_manager.task_list[0].description == 'Python'
 
 
+
 def test_task_good_display():
     task_manager = TaskManager()
     task_manager.add_task('Python')
