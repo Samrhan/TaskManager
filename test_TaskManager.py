@@ -1,5 +1,6 @@
 from TaskManager import TaskManager
 
+
 def test_add_a_task():
     task_manager = TaskManager()
     task_manager.add_task('Python')
