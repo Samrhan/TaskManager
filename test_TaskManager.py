@@ -48,7 +48,7 @@ def test_change_task_status_to_todo():
     for i in range(2):
         task_manager.change_status(i)
     for i in range(2):
-        assert task_manager.task_list[i].status == 0
+        assert task_manager.task_list[i].status == 1
 
 
 def test_good_task_done_display():
